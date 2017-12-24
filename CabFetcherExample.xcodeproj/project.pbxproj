@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9332CBDA1FEFBC5D0007FE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332CBD91FEFBC5D0007FE48 /* AppDelegate.swift */; };
+		9332CBE11FEFBC5D0007FE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9332CBE01FEFBC5D0007FE48 /* Assets.xcassets */; };
+		9332CBE41FEFBC5D0007FE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9332CBE21FEFBC5D0007FE48 /* LaunchScreen.storyboard */; };
+		9332CBEF1FEFBC5D0007FE48 /* CabFetcherExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332CBEE1FEFBC5D0007FE48 /* CabFetcherExampleUITests.swift */; };
+		9332CC0B1FEFBDCF0007FE48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332CC0A1FEFBDCF0007FE48 /* ViewController.swift */; };
+		9332CC1E1FEFC07B0007FE48 /* CABFetcherWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332CC1B1FEFC07A0007FE48 /* CABFetcherWebService.swift */; };
+		9332CC1F1FEFC07B0007FE48 /* UBERManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332CC1C1FEFC07B0007FE48 /* UBERManager.swift */; };
+		9332CC201FEFC07B0007FE48 /* UBERCabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332CC1D1FEFC07B0007FE48 /* UBERCabModel.swift */; };
+		9332CC231FEFC1520007FE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9332CC221FEFC1520007FE48 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9332CBEB1FEFBC5D0007FE48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9332CBCE1FEFBC5D0007FE48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9332CBD51FEFBC5D0007FE48;
+			remoteInfo = CabFetcherExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9332CC091FEFBC9D0007FE48 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9332CBD61FEFBC5D0007FE48 /* CabFetcherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CabFetcherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9332CBD91FEFBC5D0007FE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9332CBE01FEFBC5D0007FE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9332CBE31FEFBC5D0007FE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9332CBE51FEFBC5D0007FE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9332CBEA1FEFBC5D0007FE48 /* CabFetcherExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabFetcherExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9332CBEE1FEFBC5D0007FE48 /* CabFetcherExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabFetcherExampleUITests.swift; sourceTree = "<group>"; };
+		9332CBF01FEFBC5D0007FE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9332CC0A1FEFBDCF0007FE48 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../PracticeProj/SampleApp/SampleApp/ViewController.swift; sourceTree = "<group>"; };
+		9332CC1B1FEFC07A0007FE48 /* CABFetcherWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CABFetcherWebService.swift; sourceTree = "<group>"; };
+		9332CC1C1FEFC07B0007FE48 /* UBERManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBERManager.swift; sourceTree = "<group>"; };
+		9332CC1D1FEFC07B0007FE48 /* UBERCabModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBERCabModel.swift; sourceTree = "<group>"; };
+		9332CC221FEFC1520007FE48 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9332CBD31FEFBC5D0007FE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9332CBE71FEFBC5D0007FE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9332CBCD1FEFBC5D0007FE48 = {
+			isa = PBXGroup;
+			children = (
+				9332CBD81FEFBC5D0007FE48 /* CabFetcherExample */,
+				9332CBED1FEFBC5D0007FE48 /* CabFetcherExampleUITests */,
+				9332CBD71FEFBC5D0007FE48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9332CBD71FEFBC5D0007FE48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9332CBD61FEFBC5D0007FE48 /* CabFetcherExample.app */,
+				9332CBEA1FEFBC5D0007FE48 /* CabFetcherExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9332CBD81FEFBC5D0007FE48 /* CabFetcherExample */ = {
+			isa = PBXGroup;
+			children = (
+				9332CC1A1FEFC0630007FE48 /* CABFetcher */,
+				9332CBD91FEFBC5D0007FE48 /* AppDelegate.swift */,
+				9332CC0A1FEFBDCF0007FE48 /* ViewController.swift */,
+				9332CC221FEFC1520007FE48 /* Main.storyboard */,
+				9332CBE01FEFBC5D0007FE48 /* Assets.xcassets */,
+				9332CBE21FEFBC5D0007FE48 /* LaunchScreen.storyboard */,
+				9332CBE51FEFBC5D0007FE48 /* Info.plist */,
+			);
+			path = CabFetcherExample;
+			sourceTree = "<group>";
+		};
+		9332CBED1FEFBC5D0007FE48 /* CabFetcherExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9332CBEE1FEFBC5D0007FE48 /* CabFetcherExampleUITests.swift */,
+				9332CBF01FEFBC5D0007FE48 /* Info.plist */,
+			);
+			path = CabFetcherExampleUITests;
+			sourceTree = "<group>";
+		};
+		9332CC1A1FEFC0630007FE48 /* CABFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				9332CC211FEFC0C30007FE48 /* UBER */,
+				9332CC1B1FEFC07A0007FE48 /* CABFetcherWebService.swift */,
+			);
+			path = CABFetcher;
+			sourceTree = "<group>";
+		};
+		9332CC211FEFC0C30007FE48 /* UBER */ = {
+			isa = PBXGroup;
+			children = (
+				9332CC1D1FEFC07B0007FE48 /* UBERCabModel.swift */,
+				9332CC1C1FEFC07B0007FE48 /* UBERManager.swift */,
+			);
+			path = UBER;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9332CBD51FEFBC5D0007FE48 /* CabFetcherExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9332CBF31FEFBC5D0007FE48 /* Build configuration list for PBXNativeTarget "CabFetcherExample" */;
+			buildPhases = (
+				9332CBD21FEFBC5D0007FE48 /* Sources */,
+				9332CBD31FEFBC5D0007FE48 /* Frameworks */,
+				9332CBD41FEFBC5D0007FE48 /* Resources */,
+				9332CC091FEFBC9D0007FE48 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CabFetcherExample;
+			productName = CabFetcherExample;
+			productReference = 9332CBD61FEFBC5D0007FE48 /* CabFetcherExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9332CBE91FEFBC5D0007FE48 /* CabFetcherExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9332CBF61FEFBC5D0007FE48 /* Build configuration list for PBXNativeTarget "CabFetcherExampleUITests" */;
+			buildPhases = (
+				9332CBE61FEFBC5D0007FE48 /* Sources */,
+				9332CBE71FEFBC5D0007FE48 /* Frameworks */,
+				9332CBE81FEFBC5D0007FE48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9332CBEC1FEFBC5D0007FE48 /* PBXTargetDependency */,
+			);
+			name = CabFetcherExampleUITests;
+			productName = CabFetcherExampleUITests;
+			productReference = 9332CBEA1FEFBC5D0007FE48 /* CabFetcherExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9332CBCE1FEFBC5D0007FE48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Abhisek;
+				TargetAttributes = {
+					9332CBD51FEFBC5D0007FE48 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					9332CBE91FEFBC5D0007FE48 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9332CBD51FEFBC5D0007FE48;
+					};
+				};
+			};
+			buildConfigurationList = 9332CBD11FEFBC5D0007FE48 /* Build configuration list for PBXProject "CabFetcherExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9332CBCD1FEFBC5D0007FE48;
+			productRefGroup = 9332CBD71FEFBC5D0007FE48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9332CBD51FEFBC5D0007FE48 /* CabFetcherExample */,
+				9332CBE91FEFBC5D0007FE48 /* CabFetcherExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9332CBD41FEFBC5D0007FE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9332CBE41FEFBC5D0007FE48 /* LaunchScreen.storyboard in Resources */,
+				9332CBE11FEFBC5D0007FE48 /* Assets.xcassets in Resources */,
+				9332CC231FEFC1520007FE48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9332CBE81FEFBC5D0007FE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9332CBD21FEFBC5D0007FE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9332CC1E1FEFC07B0007FE48 /* CABFetcherWebService.swift in Sources */,
+				9332CC1F1FEFC07B0007FE48 /* UBERManager.swift in Sources */,
+				9332CC0B1FEFBDCF0007FE48 /* ViewController.swift in Sources */,
+				9332CBDA1FEFBC5D0007FE48 /* AppDelegate.swift in Sources */,
+				9332CC201FEFC07B0007FE48 /* UBERCabModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9332CBE61FEFBC5D0007FE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9332CBEF1FEFBC5D0007FE48 /* CabFetcherExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9332CBEC1FEFBC5D0007FE48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9332CBD51FEFBC5D0007FE48 /* CabFetcherExample */;
+			targetProxy = 9332CBEB1FEFBC5D0007FE48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9332CBE21FEFBC5D0007FE48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9332CBE31FEFBC5D0007FE48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9332CBF11FEFBC5D0007FE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9332CBF21FEFBC5D0007FE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9332CBF41FEFBC5D0007FE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63NQ2DGQ38;
+				INFOPLIST_FILE = CabFetcherExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhisek.CabFetcherExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9332CBF51FEFBC5D0007FE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63NQ2DGQ38;
+				INFOPLIST_FILE = CabFetcherExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhisek.CabFetcherExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9332CBF71FEFBC5D0007FE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63NQ2DGQ38;
+				INFOPLIST_FILE = CabFetcherExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhisek.CabFetcherExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CabFetcherExample;
+			};
+			name = Debug;
+		};
+		9332CBF81FEFBC5D0007FE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63NQ2DGQ38;
+				INFOPLIST_FILE = CabFetcherExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhisek.CabFetcherExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CabFetcherExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9332CBD11FEFBC5D0007FE48 /* Build configuration list for PBXProject "CabFetcherExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9332CBF11FEFBC5D0007FE48 /* Debug */,
+				9332CBF21FEFBC5D0007FE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9332CBF31FEFBC5D0007FE48 /* Build configuration list for PBXNativeTarget "CabFetcherExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9332CBF41FEFBC5D0007FE48 /* Debug */,
+				9332CBF51FEFBC5D0007FE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9332CBF61FEFBC5D0007FE48 /* Build configuration list for PBXNativeTarget "CabFetcherExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9332CBF71FEFBC5D0007FE48 /* Debug */,
+				9332CBF81FEFBC5D0007FE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9332CBCE1FEFBC5D0007FE48 /* Project object */;
+}
