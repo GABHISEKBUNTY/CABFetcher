@@ -56,7 +56,7 @@ public class UBERManager: NSObject {
         let endLongitude = String(endLocation.longitude)
         
         let urlString = UBERRequestURL.baseUrl+UBERRequestURL.fareEstimete + "start_latitude=\(startLatitude)&start_longitude=\(startLongitude)&end_latitude=\(endLatitude)&end_longitude=\(endLongitude)"
-        UBERManagerWebService.sharedService.requestAPI(url: urlString, parameter: nil, httpMethodType: .GET) { (data, error) in
+        CABFetcherWebService.sharedService.requestAPI(url: urlString, parameter: nil, httpMethodType: .GET) { (data, error) in
             
             if error != nil {
                 completion(nil, error?.localizedDescription)
