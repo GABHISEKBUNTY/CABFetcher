@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UBERManager.initializeUBERManager(token: "0dXlmwFLk06mu9YGS05b99f-msjOi092ib5YvHum", client_id: "R3tWd7M64yaOyYMTfJEWA2KZLReDF-mS")
+        UBERManager.initializeUBERManager(token: "fw-vkKK2HH41DamNhPdWCw2fxF2Ds1dMAksNQT8l", client_id: "Ixri2kw4y6iB3n3-51eJixuVIAOpBo2u")
         uberTableView.dataSource = self
         activityIndicator.isHidden = true
     }
