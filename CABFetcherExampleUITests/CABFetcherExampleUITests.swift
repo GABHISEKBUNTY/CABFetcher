@@ -1,6 +1,6 @@
 //
-//  CABFetcherExampleUITests.swift
-//  CABFetcherExampleUITests
+//  CabFetcherExampleUITests.swift
+//  CabFetcherExampleUITests
 //
 //  Created by Abhisek on 24/12/17.
 //  Copyright © 2017 Abhisek. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CABFetcherExampleUITests: XCTestCase {
+class CabFetcherExampleUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
