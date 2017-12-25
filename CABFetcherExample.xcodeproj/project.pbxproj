@@ -16,6 +16,8 @@
 		9332CC201FEFC07B0007FE48 /* UBERCabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332CC1D1FEFC07B0007FE48 /* UBERCabModel.swift */; };
 		9332CC231FEFC1520007FE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9332CC221FEFC1520007FE48 /* Main.storyboard */; };
 		93ABD2771FEFCF1D009C403A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABD2761FEFCF1D009C403A /* ViewController.swift */; };
+		93ABD27A1FEFFB75009C403A /* OLAManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABD2791FEFFB75009C403A /* OLAManager.swift */; };
+		93ABD27C1FF02B2B009C403A /* OLACab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ABD27B1FF02B2B009C403A /* OLACab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		9332CC1D1FEFC07B0007FE48 /* UBERCabModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBERCabModel.swift; sourceTree = "<group>"; };
 		9332CC221FEFC1520007FE48 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		93ABD2761FEFCF1D009C403A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93ABD2791FEFFB75009C403A /* OLAManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAManager.swift; sourceTree = "<group>"; };
+		93ABD27B1FF02B2B009C403A /* OLACab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLACab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 		9332CC1A1FEFC0630007FE48 /* CABFetcher */ = {
 			isa = PBXGroup;
 			children = (
+				93ABD2781FEFF9AE009C403A /* OLA */,
 				9332CC211FEFC0C30007FE48 /* UBER */,
 				9332CC1B1FEFC07A0007FE48 /* CABFetcherWebService.swift */,
 			);
@@ -128,10 +133,19 @@
 		9332CC211FEFC0C30007FE48 /* UBER */ = {
 			isa = PBXGroup;
 			children = (
-				9332CC1D1FEFC07B0007FE48 /* UBERCabModel.swift */,
 				9332CC1C1FEFC07B0007FE48 /* UBERManager.swift */,
+				9332CC1D1FEFC07B0007FE48 /* UBERCabModel.swift */,
 			);
 			path = UBER;
+			sourceTree = "<group>";
+		};
+		93ABD2781FEFF9AE009C403A /* OLA */ = {
+			isa = PBXGroup;
+			children = (
+				93ABD2791FEFFB75009C403A /* OLAManager.swift */,
+				93ABD27B1FF02B2B009C403A /* OLACab.swift */,
+			);
+			path = OLA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93ABD27A1FEFFB75009C403A /* OLAManager.swift in Sources */,
 				93ABD2771FEFCF1D009C403A /* ViewController.swift in Sources */,
 				9332CC1E1FEFC07B0007FE48 /* CABFetcherWebService.swift in Sources */,
 				9332CC1F1FEFC07B0007FE48 /* UBERManager.swift in Sources */,
+				93ABD27C1FF02B2B009C403A /* OLACab.swift in Sources */,
 				9332CBDA1FEFBC5D0007FE48 /* AppDelegate.swift in Sources */,
 				9332CC201FEFC07B0007FE48 /* UBERCabModel.swift in Sources */,
 			);
